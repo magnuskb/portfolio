@@ -146,7 +146,7 @@ a {
 }
 
 .about {
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     font-family: 'Good Foot';
     font-size: 130%;
@@ -164,14 +164,14 @@ a {
 }
 
 .projectslinks {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     width: 100%;
     text-align: center;
     position: fixed;
     bottom: 0px;
     font-family: 'Good Foot';
     font-size: 130%;
-    letter-spacing: 30px;
+    letter-spacing: 25px;
     transition: all 2s ease;
 }
 
@@ -268,6 +268,7 @@ a {
     width: 80%;
     border: 0px solid green;
     padding: 0px;
+
 }
 
 /*Sex og Samfund*/
@@ -498,11 +499,41 @@ video {
 
 }
 
-/*Keafolio*/
 
 /*Republikken*/
 
 .republikkeniphone {
 
     width: 100%;
+}
+
+.center2 {
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+
+}
+
+/*Mediaquery*/
+
+
+@media screen and (max-width: 500px) {
+    .navn {
+        width: 150%;
+        position: absolute;
+        left: -90px;
+        top: 38%;
+        transition: all 1000ms ease;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .welcome {
+        padding-left: 40%;
+        padding-top: 90%;
+        color: brown;
+        font-family: 'Good Foot';
+        font-size: 140%;
+        transition: all 1000ms ease;
+    }
 }
