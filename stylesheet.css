@@ -1,0 +1,502 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.sectionwrapper {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0% 8%;
+}
+
+.inner {
+    display: table-cell;
+}
+
+.column {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.backarrow img {
+    position: fixed;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1.2%;
+    width: 20px;
+    height: 20px;
+}
+
+.backarrowup img {
+    position: fixed;
+    float: left;
+    margin-left: 1.8%;
+    width: 20px;
+    height: 20px;
+}
+
+.backarrowdown img {
+    position: fixed;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.backarrowdown {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.nextproject {
+    margin-left: -23px;
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    opacity: 0.9;
+}
+
+.nextproject a:link {
+    text-decoration: none;
+}
+
+
+/*font*/
+
+@font-face {
+    font-family: 'Good Foot';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Good Foot'), url('goodfoot.woff')
+}
+
+@font-face {
+    font-family: 'Brushed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brushed'), url('brushed.woff')
+}
+
+.welcome {
+    padding-left: 20%;
+    color: brown;
+    font-family: 'Good Foot';
+    font-size: 160%;
+}
+
+h1 {
+    font-family: 'Good Foot';
+    font-size: 130%;
+    letter-spacing: 20px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Good Foot';
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    font-size: 180%;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+h3 {
+    font-family: 'Brushed';
+    font-size: 160%;
+    color: black
+}
+
+h4 {
+    font-family: 'Roboto Condensed';
+    font-size: 150%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto Condensed';
+    font-size: 90%;
+}
+
+a {
+
+    color: black;
+}
+
+.about {
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Good Foot';
+    font-size: 130%;
+    letter-spacing: 30px;
+    transition: all 2s ease;
+}
+
+.about:hover {
+    letter-spacing: 80px;
+}
+
+.about a {
+    text-decoration: none;
+    color: black;
+}
+
+.projectslinks {
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    font-family: 'Good Foot';
+    font-size: 130%;
+    letter-spacing: 30px;
+    transition: all 2s ease;
+}
+
+.projectslinks:hover {
+    letter-spacing: 60px;
+}
+
+.projectslinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.navn img {
+    width: 35%;
+    position: absolute;
+    align-content: center;
+    left: 32%;
+    top: 28%;
+    transition: all 1000ms ease;
+}
+
+
+/* About side*/
+
+#about h2 {
+    color: orangered;
+    font-size: 200%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+    margin-left: -20px;
+}
+
+.textbox p {
+    font-family: 'Anton';
+    font-size: 500%;
+}
+
+.selvportraet img {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 35%;
+}
+
+.textbox {
+    text-align: center;
+    width: 60%;
+}
+
+/*Stilartsite Swiss Style */
+
+.top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.stilartsite {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 160%;
+}
+
+.stilartsite a {
+    text-align: center;
+    color: brown;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.moodboard {
+    width: 100%;
+
+}
+
+.sprite {
+    width: 50%;
+}
+
+.center1 {
+    margin: auto;
+    width: 80%;
+    border: 0px solid green;
+    padding: 0px;
+}
+
+/*Sex og Samfund*/
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 0px solid green;
+    padding: 0px;
+    text-align: center;
+}
+
+.hands {
+    width: 100%;
+}
+
+.link {
+    text-align: center;
+    width: 100%;
+    max-width: none;
+    padding-top: 20%;
+}
+
+.link a {
+    font-size: 180%;
+    text-decoration: none;
+    color: black
+}
+
+
+/* Imtex */
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-top: 2%;
+
+}
+
+.hs-responsive-embed-youtube iframe,
+video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#imtex .text {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+/* animation sets */
+
+.blink_me {
+    animation: blinker 4s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.navn img:hover {
+    transition: all 500ms ease;
+    transform: skew(-10deg);
+}
+
+.pt-page-moveToTop {
+    -webkit-animation: moveToTop .6s ease both;
+    animation: moveToTop .6s ease both;
+}
+
+.pt-page-moveFromTop {
+    -webkit-animation: moveFromTop .6s ease both;
+    animation: moveFromTop .6s ease both;
+}
+
+.pt-page-moveToBottom {
+    -webkit-animation: moveToBottom .6s ease both;
+    animation: moveToBottom .6s ease both;
+}
+
+.pt-page-moveFromBottom {
+    -webkit-animation: moveFromBottom .6s ease both;
+    animation: moveFromBottom .6s ease both;
+}
+
+
+/*Projects*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#projects {
+    max-width: 1280px;
+    margin: auto;
+}
+
+#projects .work {
+    display: inline-block;
+    flex-basis: 450px;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+}
+
+.forsidetekst {
+    text-align: center;
+}
+
+#projects .work a {
+    position: relative;
+
+}
+
+
+
+#projects img {
+    position: relative;
+    height: 550px;
+    width: 350px;
+    margin-bottom: 10px;
+    transition: all 500ms ease;
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projects img:hover {
+    transition: all 500ms ease;
+    margin-top: -10px;
+    transform: rotate(2deg);
+    ;
+}
+
+
+#projects .work h2 {
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: -13%;
+    font-family: 'Good Foot';
+
+}
+
+#tekst2 {
+    font-family: 'Good Foot';
+    text-decoration: none;
+    font-size: 160%;
+    color: black;
+
+}
+
+#tekst1 {
+    font-size: 140%;
+    color: black;
+    font-family: 'BigNoodleTitling';
+    text-decoration: none;
+}
+
+#projects h1 {
+    font-size: 200%;
+}
+
+#projects h1 {
+    text-align: center;
+}
+
+
+#projects .column {
+    margin-top: 5%;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+/*Redesign af website*/
+
+.websitebillede {
+    width: 100%;
+}
+
+/*Egen animation*/
+
+.baggrund {
+    width: 100%;
+}
+
+.styletile {
+    width: 100%;
+}
+
+.top h3 {
+    text-align: center;
+}
+
+.top {
+    margin: auto;
+    width: 80%;
+    padding: 0px;
+    text-align: center;
+
+}
+
+/*Keafolio*/
+
+/*Republikken*/
+
+.republikkeniphone {
+
+    width: 100%;
+}
