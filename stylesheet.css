@@ -164,7 +164,7 @@ a {
 }
 
 .projectslinks {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -268,6 +268,7 @@ a {
     width: 80%;
     border: 0px solid green;
     padding: 0px;
+    text-align: center;
 
 }
 
@@ -319,6 +320,12 @@ video {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
+}
+
+.video {
+    margin: auto;
+    width: 80%;
+    padding: 0px;
 }
 
 /* animation sets */
@@ -516,7 +523,6 @@ video {
 
 /*Mediaquery*/
 
-
 @media screen and (max-width: 500px) {
     .navn {
         width: 150%;
@@ -535,5 +541,37 @@ video {
         font-family: 'Good Foot';
         font-size: 140%;
         transition: all 1000ms ease;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .center {
+        margin: auto;
+        width: 80%;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #projects img {
+        position: relative;
+        height: 450px;
+        width: 300px;
+        margin-bottom: 10px;
+        transition: all 500ms ease;
+        box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+
+@media screen and (max-width: 1180px) {
+    #projects .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 15%;
+        margin-right: 15%;
+        transition: all 500ms ease;
     }
 }
