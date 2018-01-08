@@ -204,6 +204,7 @@ a {
     width: 100%;
     text-align: right;
     margin-left: -20px;
+    z-index: 1;
 }
 
 .textbox p {
@@ -523,13 +524,13 @@ video {
 
 /*Mediaquery*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 580px) {
     .navn {
         width: 150%;
         position: absolute;
-        left: -90px;
+        left: -25%;
         top: 38%;
-        transition: all 1000ms ease;
+        transition: all 500ms ease;
     }
 }
 
