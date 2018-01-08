@@ -134,6 +134,7 @@ h4 {
     text-align: center;
 }
 
+
 p {
     font-family: 'Roboto Condensed';
     font-size: 90%;
@@ -223,6 +224,11 @@ a {
 }
 
 /*Stilartsite Swiss Style */
+
+.ikon {
+
+    width: 30%;
+}
 
 .top {
     margin-top: 10px;
